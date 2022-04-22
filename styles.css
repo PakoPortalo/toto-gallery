@@ -1,0 +1,26 @@
+body {
+	background-color: #DC143C;
+  }
+
+.main {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	/* flex-direction: column; */
+	/* align-items: center; */
+}
+
+.sub-main {
+	width: min(500px, 90%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.espantaperros {
+	width: max(400px, 90%);
+  }
+
+.estirado {
+	width:500px;
+  }
