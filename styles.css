@@ -4,10 +4,11 @@ body {
 
 .main {
 	width: 100%;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 	/* flex-direction: column; */
-	/* align-items: center; */
+	align-items: center;
 }
 
 .sub-main {
@@ -15,10 +16,20 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
 
 .espantaperros {
 	width: max(400px, 90%);
+	filter: brightness(100%);
+
+}
+
+.espantaperros:hover {
+	filter: brightness(120%);
+	position: relative;
+	left: 2px;
+	top: 2px;
   }
 
 .estirado {
