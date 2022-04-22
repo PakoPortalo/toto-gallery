@@ -12,7 +12,7 @@ body {
 }
 
 .sub-main {
-	width: min(500px, 90%);
+	width: min(500px, 80%);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -20,18 +20,18 @@ body {
 }
 
 .espantaperros {
-	width: max(400px, 90%);
+	width: max(200px, 90%);
 	filter: brightness(100%);
-
 }
 
-.espantaperros:hover {
+/* .espantaperros:hover {
 	filter: brightness(120%);
 	position: relative;
 	left: 2px;
 	top: 2px;
-  }
+  } */
 
 .estirado {
-	width:500px;
+	margin-top: 20px;
+	width:max(200px, 100%);
   }
